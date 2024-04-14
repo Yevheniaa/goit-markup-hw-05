@@ -301,20 +301,20 @@
           <h2 class="section-portfolio-title">Our Portfolio</h2>
           <ul class="section-portfolio-menu">
             <li class="section-portfolio-list">
-             <div class="wrap-cover">
+              <div class="wrap-cover">
                 <img
                   class="portfolio-image"
                   src="./images/img-section/img-1.jpg"
                   alt="Banking"
                   width="360"
                   height="300"
-                /> 
+                />
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
-             </div>
+              </div>
 
               <div class="portfolio-sublist">
                 <h3 class="portfolio-subtitle">Banking App</h3>
@@ -342,56 +342,59 @@
               </div>
             </li>
             <li class="section-portfolio-list">
-             <div class="wrap-cover">
+              <div class="wrap-cover">
                 <img
                   class="portfolio-image"
                   src="./images/img-section/img-3.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
-                /> <p class="portfolio-cover-text">
+                />
+                <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
-             </div>
+              </div>
               <div class="portfolio-sublist">
                 <h3 class="portfolio-subtitle">Meditation App</h3>
                 <p class="portfolio-text">App</p>
               </div>
             </li>
             <li class="section-portfolio-list">
-             <div class="wrap-cover">
+              <div class="wrap-cover">
                 <img
                   class="portfolio-image"
                   src="./images/img-section/img-4.jpg"
                   alt="Taxi"
                   width="360"
                   height="300"
-                /> <p class="portfolio-cover-text">
+                />
+                <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
-             </div>
+              </div>
               <div class="portfolio-sublist">
                 <h3 class="portfolio-subtitle">Taxi Service</h3>
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
             <li class="section-portfolio-list">
-             <div class="wrap-cover">
+              <div class="wrap-cover">
                 <img
                   src="./images/img-section/img-5.jpg"
                   alt="Screens"
                   width="360"
                   height="300"
-                /> <p class="portfolio-cover-text">
+                />
+                <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
-             </div>
+              </div>
               <div class="portfolio-sublist">
                 <h3 class="portfolio-subtitle">Screen Illustrations</h3>
                 <p class="portfolio-text">Design</p>
@@ -404,7 +407,8 @@
                   alt="Girl with phone"
                   width="360"
                   height="300"
-                /> <p class="portfolio-cover-text">
+                />
+                <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
@@ -465,5 +469,71 @@
         </div>
       </div>
     </footer>
+    <!--=========================MODAL==================== -->
+    <div class="backdrope is-open">
+      <div class="modal">
+        <button type="button" class="modal-close-btn">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="uer-name" class="modal-label">Name</label>
+            <div class="modal-input-wrap">
+              <input
+                type="text"
+                class="modal-input"
+                name="uer-name"
+                id="uer-name"
+              />
+              <svg class="modal-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="uer-phone" class="modal-label">Phone</label>
+            <div class="modal-input-wrap">
+              <input
+                type="tel"
+                class="modal-input"
+                name="uer-phone"
+                id="uer-phone"
+              />
+              <svg class="modal-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="uer-email" class="modal-label">Email</label>
+            <div class="modal-input-wrap">
+              <input
+                type="email"
+                class="modal-input"
+                name="uer-email"
+                id="uer-email"
+              />
+              <svg class="modal-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-comment" class="modal-label">Comment </label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-text"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <button type="submit" class="form-btn">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
