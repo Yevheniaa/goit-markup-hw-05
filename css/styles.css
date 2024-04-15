@@ -177,7 +177,6 @@ img {
   background: #4d5ae5;
   cursor: pointer;
   display: block;
-
   padding: 16px 32px;
   height: 56px;
   min-width: 169px;
@@ -582,8 +581,7 @@ img {
   margin-bottom: 4px;
 }
 
-.form-btn {
-}
+
 .modal-field-icon {
   fill: #2e2f42;
   position: absolute;
@@ -632,10 +630,41 @@ modal-text::placeholder {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-.check-text-span {
+.check-text span {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
   margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  fill: transparent;
+  transition: background-color 250ms  cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+.modal-check:checked +.check-text span {
+  background-color: #404bbf;
+border: none;
+fill: #fff;
+}
+.modal-field-check {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.form-btn {
+  border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #404bbf;
+color: #fff;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+text-align: center;
+bottom: none;
 }

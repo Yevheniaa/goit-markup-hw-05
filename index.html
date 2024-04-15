@@ -531,21 +531,25 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-check">
             <input
               type="checkbox"
               name="polisy"
               id="polisy"
               value="true"
-              class="modal-chek"
+              class="modal-check visually-hidden"
             />
             <label for="polisy" class="check-text"
-              ><span class="check-text-span"></span> I accept the terms and
-              conditions of the
-              <a href="" class="check-text-link"> Privacy Policy</a></label
+              ><span class="check-text-span">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span> I accept the terms and
+              conditions of the  <a href="" class="check-text-link"> Privacy Policy</a></label
             >
           </div>
-          <button type="submit" class="form-btn">Send</button>
+         <div class="modal-field-btn"> 
+          <button type="submit" class="form-btn">Send</button></div>
         </form>
       </div>
     </div>
