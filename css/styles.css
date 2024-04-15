@@ -488,6 +488,10 @@ img {
 }
 .footer-input-wrap {
 }
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
 .footer-input-label {
   margin-bottom: 16px;
   font-weight: 500;
@@ -517,9 +521,17 @@ img {
   padding: 8px 24px;
   width: 165px;
   height: 40px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   border: none;
   color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 .footer-btn-image {
   width: 24px;
