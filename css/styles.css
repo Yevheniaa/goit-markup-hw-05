@@ -550,7 +550,7 @@ img {
   opacity: 0;
   visibility: hidden;
   position: none;
-  padding: 72px 24px 24px 24px;
+ 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -567,7 +567,8 @@ img {
   scale: (1);
   width: 408px;
   min-height: 584px;
-  padding: 24px;
+  
+  padding: 72px 24px 24px 24px;
   background-color: #fcfcfc;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -607,7 +608,6 @@ img {
   fill: #fff;
 }
 .modal-title {
-  margin-top: 48px;
   margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -615,12 +615,14 @@ img {
   text-align: center;
   color: #2e2f42;
 }
+.modal-field {
+  margin-bottom: 8px;
+}
 .modal-input {
   width: 100%;
   border-radius: 4px;
   height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-
+   border: 1px solid rgba(46, 47, 66, 0.4);
   border-color: transparent;
   outline: transparent;
   padding-left: 38px;
@@ -653,7 +655,7 @@ img {
 }
 .modal-input-wrap {
   position: relative;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 .modal-text {
   width: 100%;
@@ -697,7 +699,8 @@ modal-text::placeholder {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  fill: transparent;
+  
+  fill: #F4F4FD;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
