@@ -721,10 +721,10 @@ modal-text::placeholder {
 .form-btn {
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
+  background-color: #404bbf;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -733,6 +733,8 @@ modal-text::placeholder {
   letter-spacing: 0.04em;
   display: block;
   text-align: center;
-  bottom: none;
+  border: none;
+  cursor: pointer;
   margin: 24px auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
